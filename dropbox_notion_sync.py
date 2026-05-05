@@ -7,6 +7,12 @@
 ║                                                                  ║
 ║  📄 Fichiers  — 1 ligne par fichier                             ║
 ║                   Propriétés : Nom (titre)                       ║
+<<<<<<< HEAD
+=======
+║                                Date (date — extraite du nom)     ║
+║                                Pôle (relation — 1er niveau)     ║
+║                                Société (relation — 2e niveau)    ║
+>>>>>>> dev
 ║                                                                  ║
 ║  📁 Dossiers  — 1 ligne par sous-dossier                        ║
 ║                   Propriétés : Nom (titre)                       ║
@@ -34,7 +40,11 @@ from datetime import datetime
 #  CONFIGURATION  ← seule section à modifier
 # ═══════════════════════════════════════════════════════════════════
 
+<<<<<<< HEAD
 DROPBOX_TOKEN         = "sl.u.AGcylVKRBg2WAXZla_MYs37HmePM2-w3oxKhgV7ZV78eDkIwNYpwnVsMqDozLCishZHPjL2aqj2tg8EHHv-h6e_2G_MmEm8yFQLVfqa5Vc0Ov7KMB53zUChYHDcfwhKnwXp3d4Z2UTMSM9ENIv6yABfHpRb17dN34anQpK4Hyik8nmyDSr3uz9O68kjgj0eR_j-yLm__aea46OENmTRIvq9PFuVuZqOaL5H_qJ8WZEBK2BKE3W2pPIb9zZqoHJgicesihREhRS-UmMqaDj9maM_M0uLAjZ752jT0sfw6iHIQeTwh_CsDr1sz2eo07MpDzOK3-x9FYcCJkD-oDVaCXDTGI2r-9pwRuGRKCqdAHzgrzHBX__YFMWDxIA3mUrTJECvXPJy5E_R4fYAwuyuyDQ2gywi4OwhtZCtrTcUPTiywTViRjYK4ch2s8XYp8AfazTg5jQMPqxuLbpDWbqnRWNk0GTWzwpwr6G6LOD3RkKKT3eoGmkhWIFBlmiuShSrJ5VOiqiDxB-amzEtTD9Sqo9X30KoB5Q2qqMLHrUx_4mAj_aFDlRkdR8JHVNxQSRP1yX8zcqfOmVExChzgYNI8kVpPa8u49KnT-y_0TueqTvgnurzJF-riVpOgeMa6ASqT2nxLuIM3iewyJl_8MazjrRmh9EywuFb7naPqOVeoWdh0cOe25QNm94YlS0CBTnwRViA-nwDy99as1uBvrLr6nD0knGVkI1akWn34mIDqWo4QoCFmh7ld0n75gc_jQHDbfhL8Ef6gjhEQ7XKN-8xWE7_tuRlQ_0TEzB-xZZsGN-Lsf5P96opQCxUWhzjpKDCTJmSiRIy0K2bSNmKmAoKQlnAYUBHeak15N1Jolk84SJcacJum_fIQBtH4sR3qH0diRRAwWog6a-8vpD1Nv8E2FgbuhyYp6BNHNzASM7ok65r3HlwrB9Fix5ik9qkrl1AmlZNyO4I5Rst1MLYaKpx9eK-wQD2OYqj6pZW8y7V0oQVSqLY3uGRfjboXSc3PT95TTunr0eatO01bNPre0h3GLQQqurwAidLVi-tQZIg7aQGxPvEXsuFvlPvVH0lLqQMsUon9MnGSTMLT2L9qSqhA_n2TiJ8gSQ9vBIAJaTW7KgwiX0gGWDDlsyRFeAVwPhBxXOUSlXZzQ5qyM7BTjv_pXZeXUY0t7h6QoblC4Kan-xDRrErrxAJP4MHx9Bd0PZa6wGLPRSfZPOJjAONq2pzWD-gEJkIlMSMmQsvUqmfzglqw5Bv1e0KYG2Bxn7MeAljsNrEOI2AF_otDPBptETZS712YNxVir61co-TMlQ3yacmxjmdehonwY7XkKupnSkiBkws"
+=======
+DROPBOX_TOKEN         = "sl.u.AGes6xtJ2tobZgH9WtQDRZ90BkEvUhzx-GrBPim269JdaM3zhVoX4sZJKPXsGC1Tz1JZpWgqLH_AOtWCKbaqN7xnFerQctmMntKHn96Y2IQ0MkCEOYejuBcBozhUz5cF7XPKfk_KcGh8Xku1BXGTppuyvXyuLZVZqjdXzGF9l4775kkIo6N5UwfKNOcAk5WFeyQNM9oRbvQhWsDxFSzDtWcZk7HnoaK7kID7Hel2YBcp4iFIsRmn_W28tzVuJby1n9VnISr39aJ9Th2aGUVknMnqeoPF5teJII3q6N4N48X-u2k_I495oonC8gzov17j8VR8VsFStF3eBGdTKH8JT_CIIM-3PtByQ91cKv2Pc6krWWXz7g6KKTEJl8IlVNMLgl_3whwrG2m6MnvzDczJA8iBPSX5Lnp3Q8cc2TWZZMmEvS1lDwPKvfcOxsuCweQKX4cG8u6RjBb1msZ3UetgQvuh6DuCW0tVOtGyPzecK2V7XJI8ONqbOdnQU4EHnTGOTFjgis6-rGyGO9a9C7OQG41jIMUHban1yJNIH0XKBoD3nitiYFye5N6Ov4cB9-7xkcy-CjXXkt8keuFSwQgcWsZ9FR4p23sr4CWLVw9SwNO2I5wvz3T6VKQAJEfxMYh4izKiyzladW0k_DtbyOrLoyGx-ElFRH8ARzhdlVv6mRSS0qXtrh-m1TLn2pfa2W5gLc9YLvoIzZNsOgxSkTJxJGKe9MeC2xiNl-RiYefGU8q5yaBqEKefDkoVzm32UO4AJTRptWOFQBfxBU1xy8ti0XgzdxSFxFflXOdKr6CNQnvO0rzCAG-tDRqXbYn8oX8vefu2ekqz3Yxn02A5v3FiLaJ35Iif3XCghp23VVnd_Aakz4ItN2KHzT_bSmULSaNpxT0doDkH--_i9euUIgAG0qZl8ouVBV3LrFS3IDYIjzVIwu4C5HkZf2TbnPhha3zU0tFuIfwO3z429YL0JtZojFNC-4b1e5v4YRH6_PGGOipkHeHVHGNg6KTz5qirfiB_z95LRTMBJlMJQdXKX9O2HculJtflUWvpSgbg8_-TYWvO5dF2I0VRAsLRORZzC3NBs0KWjovZTLPl7fn_GVejXSB4txTs2mgWhIsXBPGhnuK_tKl75z2WUzhDFthwG5EH1QGpZYezBCHms41QWWs1Ae358gLu7sc42xrwhadaRFruUtYhNKWQOx0S3IaaMI47b1JMszssrttzGNu5UWUiA6dOMLse2Ulcpn2pwXHRxsPalUBlZ2CWf6SN4y_qb4HcRDD54uA_ZTi4d625g402i7V7_RQZhnN4ldXjV4tBBQJ95AHDJuh-FK2EC-AVCC0EMts"
+>>>>>>> dev
 
 NOTION_TOKEN          = "ntn_G35911385941khauFZooRBkVfxLMl4ukoGVHvYNOAot6SS"
 NOTION_PARENT_PAGE_ID = "3410d60c6d2281b89661edf0a2ff415b"
@@ -49,10 +59,18 @@ DB_DOSSIERS           = "📁 Dossiers"
 RELATION_PROP         = "Fichiers liés"    # colonne relation dans Dossiers (→ Fichiers)
 BACK_RELATION_PROP    = "Dossier"          # colonne miroir auto-créée dans Fichiers (→ Dossiers)
 
+<<<<<<< HEAD
 # Propriétés texte (à convertir en relations plus tard)
 POLE_PROP             = "Pôle"
 SOCIETE_PROP          = "Société"
 
+=======
+POLE_PROP             = "Pôle"
+SOCIETE_PROP          = "Société"
+
+DB_SOCIETES_ID        = "3510d60c6d2281d2b5b4fd13dde67b9a"  # base Notion des sociétés
+
+>>>>>>> dev
 API_DELAY             = 0.35   # secondes entre appels API (évite le rate-limit)
 
 # ═══════════════════════════════════════════════════════════════════
@@ -70,6 +88,10 @@ _NTN = {
 }
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> dev
 def _http(url, method, headers, data=None):
     """Effectue un appel HTTP JSON. Retourne (dict|None, status_code)."""
     body = json.dumps(data).encode("utf-8") if data is not None else None
@@ -175,6 +197,18 @@ def _collect_dossiers(path, pole, societe, result):
         _collect_dossiers(e["path_lower"], pole, societe, result)
 
 
+<<<<<<< HEAD
+=======
+def _collect_files(path, result):
+    """Collecte récursivement tous les fichiers Dropbox sous `path`."""
+    for e in dbx_list(path):
+        if e.get(".tag") == "file":
+            result.append(e)
+        elif e.get(".tag") == "folder":
+            _collect_files(e["path_lower"], result)
+
+
+>>>>>>> dev
 # ═══════════════════════════════════════════════════════════════════
 #  UTILITAIRE : date depuis le nom de dossier
 # ═══════════════════════════════════════════════════════════════════
@@ -194,6 +228,50 @@ def parse_folder_date(name):
     return None
 
 
+<<<<<<< HEAD
+=======
+def parse_file_date(name):
+    """
+    Extrait une date ISO depuis un nom de fichier (sans extension) en testant
+    plusieurs formats en début de chaîne. Retourne None si non reconnu.
+
+    Formats supportés (en ordre de priorité) :
+      YYYYMMDD        ex. "20260414_rapport"   → "2026-04-14"
+      YYYY-MM-DD      ex. "2026-04-14 rapport" → "2026-04-14"
+      YYYY_MM_DD      ex. "2026_04_14 rapport" → "2026-04-14"
+      AA MM JJ        ex. "26 04 14 rapport"   → "2026-04-14"
+    """
+    s = name.strip()
+
+    # YYYYMMDD
+    m = re.match(r"^(\d{4})(\d{2})(\d{2})\b", s)
+    if m:
+        try:
+            return datetime(int(m.group(1)), int(m.group(2)), int(m.group(3))).strftime("%Y-%m-%d")
+        except ValueError:
+            pass
+
+    # YYYY-MM-DD ou YYYY_MM_DD
+    m = re.match(r"^(\d{4})[-_](\d{2})[-_](\d{2})\b", s)
+    if m:
+        try:
+            return datetime(int(m.group(1)), int(m.group(2)), int(m.group(3))).strftime("%Y-%m-%d")
+        except ValueError:
+            pass
+
+    # AA MM JJ (même format que les dossiers)
+    m = re.match(r"^(\d{2})\s+(\d{2})\s+(\d{2})\b", s)
+    if m:
+        yy, mm, dd = int(m.group(1)), int(m.group(2)), int(m.group(3))
+        try:
+            return datetime(2000 + yy, mm, dd).strftime("%Y-%m-%d")
+        except ValueError:
+            pass
+
+    return None
+
+
+>>>>>>> dev
 # ═══════════════════════════════════════════════════════════════════
 #  API NOTION — bases de données
 # ═══════════════════════════════════════════════════════════════════
@@ -214,15 +292,33 @@ def ntn_search_db(name):
 
 
 def ntn_create_db_fichiers(parent_id):
+<<<<<<< HEAD
     """Crée la base 📄 Fichiers : Nom (titre) + Lien Dropbox (url)."""
+=======
+    """Crée la base 📄 Fichiers avec toutes ses propriétés."""
+>>>>>>> dev
     r, _ = _http(
         "https://api.notion.com/v1/databases", "POST", _NTN,
         {
             "parent": {"type": "page_id", "page_id": parent_id},
             "title":  [{"type": "text", "text": {"content": DB_FICHIERS}}],
             "properties": {
+<<<<<<< HEAD
                 "Nom":           {"title": {}},
                 "Lien Dropbox":  {"url":   {}},
+=======
+                "Nom":          {"title": {}},
+                "Lien Dropbox": {"url":   {}},
+                "Date":         {"date":  {}},
+                POLE_PROP:      {"select": {}},
+                SOCIETE_PROP: {
+                    "relation": {
+                        "database_id":     DB_SOCIETES_ID,
+                        "type":            "single_property",
+                        "single_property": {},
+                    }
+                },
+>>>>>>> dev
             },
         },
     )
@@ -299,6 +395,7 @@ def ntn_ensure_dossiers_properties(dos_id, fic_id):
         time.sleep(API_DELAY)
 
 
+<<<<<<< HEAD
 def ntn_ensure_fichiers_properties(fic_id):
     """Ajoute 'Lien Dropbox' (url) à la base Fichiers si elle en est dépourvue."""
     r, _ = _http(f"https://api.notion.com/v1/databases/{fic_id}", "GET", _NTN)
@@ -308,6 +405,56 @@ def ntn_ensure_fichiers_properties(fic_id):
         print(f"  ➕ Ajout propriété « Lien Dropbox » sur {DB_FICHIERS}")
         _http(f"https://api.notion.com/v1/databases/{fic_id}", "PATCH", _NTN,
               {"properties": {"Lien Dropbox": {"url": {}}}})
+=======
+def _migrate_to_relation(fic_id, props, prop_name, db_id, to_add):
+    """Helper : ajoute prop_name comme relation dans to_add, en migrant depuis rich_text si besoin."""
+    rel_def = {
+        "relation": {
+            "database_id":     db_id,
+            "type":            "single_property",
+            "single_property": {},
+        }
+    }
+    if prop_name not in props:
+        to_add[prop_name] = rel_def
+    elif props[prop_name].get("type") == "rich_text":
+        print(f"  🔄 Migration « {prop_name} » : rich_text → relation")
+        _http(f"https://api.notion.com/v1/databases/{fic_id}", "PATCH", _NTN,
+              {"properties": {prop_name: {"name": prop_name + " (texte)"}}})
+        time.sleep(API_DELAY)
+        to_add[prop_name] = rel_def
+
+
+def ntn_ensure_fichiers_properties(fic_id):
+    """Ajoute les propriétés manquantes à la base Fichiers (Lien Dropbox, Date, Pôle, Société)."""
+    r, _ = _http(f"https://api.notion.com/v1/databases/{fic_id}", "GET", _NTN)
+    if not r:
+        return
+    props  = r.get("properties", {})
+    to_add = {}
+    if "Lien Dropbox" not in props:
+        to_add["Lien Dropbox"] = {"url": {}}
+    if "Date" not in props:
+        to_add["Date"] = {"date": {}}
+
+    # Pôle → select (migration depuis relation ou rich_text si besoin)
+    pole_type = props.get(POLE_PROP, {}).get("type")
+    if POLE_PROP not in props:
+        to_add[POLE_PROP] = {"select": {}}
+    elif pole_type in ("relation", "rich_text"):
+        print(f"  🔄 Migration « {POLE_PROP} » : {pole_type} → select")
+        _http(f"https://api.notion.com/v1/databases/{fic_id}", "PATCH", _NTN,
+              {"properties": {POLE_PROP: {"name": POLE_PROP + f" ({pole_type})"}}})
+        time.sleep(API_DELAY)
+        to_add[POLE_PROP] = {"select": {}}
+
+    _migrate_to_relation(fic_id, props, SOCIETE_PROP, DB_SOCIETES_ID, to_add)
+
+    if to_add:
+        print(f"  ➕ Ajout propriété(s) manquante(s) sur {DB_FICHIERS} : {list(to_add)}")
+        _http(f"https://api.notion.com/v1/databases/{fic_id}", "PATCH", _NTN,
+              {"properties": to_add})
+>>>>>>> dev
         time.sleep(API_DELAY)
 
 
@@ -335,6 +482,7 @@ def _ntn_query_all(db_id):
 
 def ntn_get_fichiers_rows(fic_id):
     """
+<<<<<<< HEAD
     Retourne { nom -> page_id } pour toutes les lignes de 📄 Fichiers.
     (Le nom seul suffit comme clé — Fichiers n'a pas de champ Dossier.)
     """
@@ -350,6 +498,95 @@ def ntn_get_fichiers_rows(fic_id):
     return rows
 
 
+=======
+    Retourne { nom -> {"page_id": str, "has_date": bool, "has_pole": bool, "has_societe": bool} }
+    pour toutes les lignes de 📄 Fichiers.
+    """
+    rows = {}
+    for page in _ntn_query_all(fic_id):
+        props       = page.get("properties", {})
+        nom         = ""
+        has_date    = False
+        has_pole    = False
+        has_societe = False
+        for pname, pval in props.items():
+            if pval.get("type") == "title":
+                nom = "".join(x.get("plain_text", "")
+                              for x in pval.get("title", [])).strip()
+            if pname == "Date" and pval.get("type") == "date":
+                has_date = pval.get("date") is not None
+            if pname == POLE_PROP and pval.get("type") == "select":
+                has_pole = pval.get("select") is not None
+            if pname == SOCIETE_PROP and pval.get("type") == "relation":
+                has_societe = bool(pval.get("relation"))
+        if nom:
+            rows[nom] = {
+                "page_id":    page["id"],
+                "has_date":   has_date,
+                "has_pole":   has_pole,
+                "has_societe": has_societe,
+            }
+    return rows
+
+
+_db_title_prop = {}  # cache : { db_id -> nom_de_la_propriété_titre }
+
+
+def _title_prop(db_id):
+    """Retourne le nom de la propriété titre d'une base (avec cache)."""
+    if db_id not in _db_title_prop:
+        r, _ = _http(f"https://api.notion.com/v1/databases/{db_id}", "GET", _NTN)
+        _db_title_prop[db_id] = "Nom"
+        if r:
+            for pname, pval in r.get("properties", {}).items():
+                if pval.get("type") == "title":
+                    _db_title_prop[db_id] = pname
+                    break
+        time.sleep(API_DELAY)
+    return _db_title_prop[db_id]
+
+
+def _query_name_to_id(db_id):
+    """Retourne { nom_titre -> page_id } pour n'importe quelle base Notion."""
+    result = {}
+    for page in _ntn_query_all(db_id):
+        nom = ""
+        for pval in page.get("properties", {}).values():
+            if pval.get("type") == "title":
+                nom = "".join(x.get("plain_text", "") for x in pval.get("title", [])).strip()
+        if nom:
+            result[nom] = page["id"]
+    return result
+
+
+def ntn_ensure_ref(db_id, name, cache):
+    """Retourne le page_id de `name` dans la base de référence.
+    Crée automatiquement la page si elle n'existe pas encore."""
+    if name in cache:
+        return cache[name]
+    prop = _title_prop(db_id)
+    r, _ = _http(
+        "https://api.notion.com/v1/pages", "POST", _NTN,
+        {
+            "parent":     {"database_id": db_id},
+            "properties": {prop: {"title": [{"type": "text", "text": {"content": name}}]}},
+        }
+    )
+    time.sleep(API_DELAY)
+    if r and r.get("id"):
+        cache[name] = r["id"]
+        print(f"   ➕ Référence créée : « {name} »")
+        return r["id"]
+    print(f"  ⚠️  Impossible de créer la référence : « {name} »")
+    return None
+
+
+def ntn_get_societes_pages():
+    """Retourne { nom_de_la_société -> page_id }."""
+    return _query_name_to_id(DB_SOCIETES_ID)
+
+
+>>>>>>> dev
 def ntn_get_dossiers_rows(dos_id):
     """
     Retourne { nom -> {"page_id": str, "linked_ids": set[str]} }.
@@ -376,13 +613,26 @@ def ntn_get_dossiers_rows(dos_id):
 #  API NOTION — création / mise à jour des lignes
 # ═══════════════════════════════════════════════════════════════════
 
+<<<<<<< HEAD
 def ntn_add_fichier(fic_id, nom, dropbox_url=None):
+=======
+def ntn_add_fichier(fic_id, nom, dropbox_url=None, date_iso=None, pole=None, societe=None):
+>>>>>>> dev
     """Crée une ligne dans 📄 Fichiers. Retourne le page_id ou None."""
     props = {
         "Nom": {"title": [{"type": "text", "text": {"content": nom}}]},
     }
     if dropbox_url:
         props["Lien Dropbox"] = {"url": dropbox_url}
+<<<<<<< HEAD
+=======
+    if date_iso:
+        props["Date"] = {"date": {"start": date_iso}}
+    if pole:
+        props[POLE_PROP]    = {"select":   {"name": pole}}
+    if societe:
+        props[SOCIETE_PROP] = {"relation": [{"id": societe}]}
+>>>>>>> dev
     r, _ = _http(
         "https://api.notion.com/v1/pages", "POST", _NTN,
         {"parent": {"database_id": fic_id}, "properties": props},
@@ -390,6 +640,27 @@ def ntn_add_fichier(fic_id, nom, dropbox_url=None):
     return r.get("id") if r else None
 
 
+<<<<<<< HEAD
+=======
+def ntn_update_fichier(page_id, date_iso=None, pole=None, societe=None):
+    """Met à jour les champs manquants d'une ligne existante dans 📄 Fichiers (un seul PATCH)."""
+    props = {}
+    if date_iso:
+        props["Date"]       = {"date":     {"start": date_iso}}
+    if pole:
+        props[POLE_PROP]    = {"select":   {"name": pole}}
+    if societe:
+        props[SOCIETE_PROP] = {"relation": [{"id": societe}]}
+    if not props:
+        return True
+    r, _ = _http(
+        f"https://api.notion.com/v1/pages/{page_id}", "PATCH", _NTN,
+        {"properties": props},
+    )
+    return r is not None
+
+
+>>>>>>> dev
 def ntn_add_dossier(dos_id, nom, file_page_ids, date_iso=None, dropbox_url=None):
     """Crée une ligne dans 📁 Dossiers. Retourne le page_id ou None."""
     props = {
@@ -495,10 +766,19 @@ def sync():
 
     # ── 4. Chargement des lignes existantes ───────────────────────
     print("\n📋  Chargement des lignes existantes...")
+<<<<<<< HEAD
     existing_fic = ntn_get_fichiers_rows(fic_id)   # { nom -> page_id }
     existing_dos = ntn_get_dossiers_rows(dos_id)   # { nom -> {page_id, linked_ids} }
     print(f"   → {len(existing_fic)} fichier(s) déjà en base")
     print(f"   → {len(existing_dos)} dossier(s) déjà en base")
+=======
+    existing_fic   = ntn_get_fichiers_rows(fic_id)   # { nom -> {page_id, has_date, has_pole, has_societe} }
+    existing_dos   = ntn_get_dossiers_rows(dos_id)   # { nom -> {page_id, linked_ids} }
+    societes_pages = ntn_get_societes_pages()         # { nom_société -> page_id }
+    print(f"   → {len(existing_fic)} fichier(s) déjà en base")
+    print(f"   → {len(existing_dos)} dossier(s) déjà en base")
+    print(f"   → {len(societes_pages)} société(s) trouvée(s)")
+>>>>>>> dev
     time.sleep(API_DELAY)
 
     # ── 5. PASSE 1 : alimenter 📄 Fichiers ────────────────────────
@@ -508,6 +788,7 @@ def sync():
     for dos in dossiers_found:
         dos_path = dos["path"]
         folder_to_file_ids[dos_path] = []
+<<<<<<< HEAD
         children = dbx_list(dos_path)
 
         for e in children:
@@ -528,6 +809,63 @@ def sync():
                     existing_fic[item_name] = pid
                     folder_to_file_ids[dos_path].append(pid)
                     print(f"   ➕ [{dos['name']}] {item_name}")
+=======
+        children = []
+        _collect_files(dos_path, children)
+        if not children:
+            continue
+        print(f"   🔍 {dos['name']} : {len(children)} fichier(s)")
+
+        for e in children:
+            item_name = os.path.splitext(e["name"])[0]
+            item_path = e["path_lower"]
+
+            pole_name       = dos["pole"]
+            societe_name    = dos["societe"]
+            societe_page_id = ntn_ensure_ref(DB_SOCIETES_ID, societe_name, societes_pages)
+
+            if item_name in existing_fic:
+                fic_info  = existing_fic[item_name]
+                page_id   = fic_info["page_id"]
+                folder_to_file_ids[dos_path].append(page_id)
+                # Compléter les champs manquants en un seul PATCH
+                upd_date    = None if fic_info["has_date"]    else parse_file_date(item_name)
+                upd_pole    = None if fic_info["has_pole"]    else pole_name
+                upd_societe = None if fic_info["has_societe"] else societe_page_id
+                if upd_date or upd_pole or upd_societe:
+                    ok = ntn_update_fichier(page_id, upd_date, upd_pole, upd_societe)
+                    time.sleep(API_DELAY)
+                    if ok:
+                        fic_info["has_date"]    = fic_info["has_date"]    or bool(upd_date)
+                        fic_info["has_pole"]    = fic_info["has_pole"]    or bool(upd_pole)
+                        fic_info["has_societe"] = fic_info["has_societe"] or bool(upd_societe)
+                        parts = ([f"date→{upd_date}"]    if upd_date    else []) + \
+                                ([f"pôle→{pole_name}"]   if upd_pole    else []) + \
+                                ([f"sté→{societe_name}"] if upd_societe else [])
+                        print(f"   📅 [{dos['name']}] {item_name}  ({', '.join(parts)})")
+                    else:
+                        print(f"   ↩  [{dos['name']}] {item_name}")
+                else:
+                    print(f"   ↩  [{dos['name']}] {item_name}")
+            else:
+                link      = dbx_get_shared_link(item_path)
+                time.sleep(API_DELAY)
+                file_date = parse_file_date(item_name)
+                pid       = ntn_add_fichier(fic_id, item_name, link, file_date,
+                                            pole_name, societe_page_id)
+                time.sleep(API_DELAY)
+                if pid:
+                    existing_fic[item_name] = {
+                        "page_id":     pid,
+                        "has_date":    bool(file_date),
+                        "has_pole":    bool(pole_name),
+                        "has_societe": bool(societe_page_id),
+                    }
+                    folder_to_file_ids[dos_path].append(pid)
+                    date_str = f" [{file_date}]" if file_date else ""
+                    print(f"   ➕ [{dos['name']}] {item_name}{date_str}"
+                          f"  ({pole_name} / {societe_name})")
+>>>>>>> dev
 
     # ── 6. PASSE 2 : alimenter 📁 Dossiers + relations ────────────
     print(f"\n📁  PASSE 2 — « {DB_DOSSIERS} »...")
